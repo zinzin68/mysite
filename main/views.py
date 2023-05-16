@@ -4,8 +4,8 @@ from .models import Post
 
 # Create your views here.
 # index.html 페이지를 부르는 index 함수
-def index (request):
-    return render(request,'main/index.html')
+def index(request):
+    return render(request, 'main/index.html')
 
 # blog.html 페이지를 부르는 blog 함수
 def blog(request):
